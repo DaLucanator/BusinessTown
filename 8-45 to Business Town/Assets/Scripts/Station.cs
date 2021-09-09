@@ -85,7 +85,7 @@ public class Station : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         EndCheck();
     }
 
@@ -157,7 +157,7 @@ public class Station : MonoBehaviour
 
         IEnumerator Wait2()
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.1f);
             if(slots.Count != 0)
             {
                 GameObject slot = slots[Random.Range(0, slots.Count)];

@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     public static GameData gameData;
 
     public static int connectionMax = 4;
-    public static int pathMax = 10;
+    public static int pathMax = 7;
 
     public static int currentId = 0;
     public static int currentPathNum;
@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 100; i++)
         {
             colors.Add(gameData.colors[i]);
         }

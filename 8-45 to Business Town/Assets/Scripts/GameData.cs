@@ -18,7 +18,7 @@ public class GameData : MonoBehaviour
         }
         GameController.gameData = this;
 
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 100; i++)
         {
             colors[i] = new Color(Random.Range(0.2f, 0.8f), Random.Range(0.2f, 0.8f), Random.Range(0.2f, 0.8f),1);
         }
